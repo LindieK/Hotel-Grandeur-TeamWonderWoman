@@ -110,5 +110,22 @@ input{
     padding: 5px;
 }
 
+.footer >p{
+    margin: 150px 50px 80px 100px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+ul{
+    float: right;
+    margin: -100px 200px 0px 0px;
+}
 
+li{
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    color: black;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
