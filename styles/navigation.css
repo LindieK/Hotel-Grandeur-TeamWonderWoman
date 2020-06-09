@@ -11,7 +11,7 @@
 .navbar-brand:hover {
   color: white;
 }
-.navbar-collapse {
+.navbar-collapse .footer-nav {
   padding-right:200px;
 }
 .nav-link {
@@ -36,4 +36,23 @@ nav svg {
   color: white;
 }
 
+footer nav {
+  padding: 10px;
+}
+footer nav .right {
+  padding-left: 200px;
+  margin-right: 60px;
+  font-family: "Roboto";
+  margin-top: 10px;
+  font-size: 1rem;
+}
+footer .nav-link {
+  font-size: 1.2rem;
+  color: black;
+}
 
+footer .nav-link:hover {
+  font-size: 1.2rem;
+  color: black;
+  border-bottom: 1px solid black;
+}

@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="styles/navigation.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="fonts/stylesheet.css">
-<!-- Video Player -->
-<link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
+  <!-- Video Player -->
+  <link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
 
   <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
   <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
@@ -195,7 +195,7 @@
       </div>
       <div class="col-sm">
         <div class="welcome_text">
-          <h2 >Welcome to <br><span class="boldtext">Hotel Grandeur</span></h2>
+          <h2>Welcome to <br><span class="boldtext">Hotel Grandeur</span></h2>
           <p>
             The Hotel Grandeur is the right choice for guests who are searching
             for a combination of charm,peace and quiet,and a convenient place from
@@ -279,74 +279,116 @@
 
   </section>
   <section class="tour">
-    <video
-  id="my-video"
-  class="video-js vjs-big-play-centered"
-  controls
-  preload="auto"
-  poster="images/tour.png"
-  data-setup="{}"
->
-<source src="videos/tour.mp4" type="video/mp4" />
+    <video id="my-video" class="video-js vjs-big-play-centered" controls preload="auto" poster="images/second.png" data-setup="{}">
+      <source src="videos/tour.mp4" type="video/mp4" />
     </video>
   </section>
 
 
-    <section>
-      <h2>Our Happy Clients</h2>
+  <section class="reviews">
+    <h2 class="heading">Our Happy Clients</h2>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card">
+            <img />
+            <h4 class="name">Tasha Cobbs</h4>
+            <p class="role">Adventurer</p>
+            <p>
+              Beautiful ambience, highly professional staff. Standard security
+              within and outside the vicinity,was there during Valentine and their staff
+              and services are classy. Will definitely pay a visit to Hotel Grandeur
+              again. They have ample parking space,a swimming pool and a gym.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <img />
+            <h4>Tasha Cobbs</h4>
+            <p>Adventurer</p>
+            <p>
+              Beautiful ambience, highly professional staff. Standard security
+              within and outside the vicinity,was there during Val and their staff
+              and services are classy. Will definitely pay a visit to Hotel Grandeur
+              again. They have ample parking space,a swimming pool and a gym
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <img />
+            <h4>Tasha Cobbs</h4>
+            <p>Adventurer</p>
+            <p>
+              Beautiful ambience, highly professional staff. Standard security
+              within and outside the vicinity,was there during Val and their staff
+              and services are classy. Will definitely pay a visit to Hotel Grandeur
+              again. They have ample parking space,a swimming pool and a gym
+            </p>
+          </div>
+        </div>
+        <div class="controls">
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="previous"><</span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="next">></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
 
-      <div>
-        <img />
-        <h4>Tasha Cobbs</h4>
-        <p>Adventurer</p>
-        <p>
-          Beautiful ambience, highly professional staff. Standard security
-          within and outside the vicinity,was there during Val and their staff
-          and services are classy. Will definitely pay a visit to Hotel Grandeur
-          again. They have ample parking space,a swimming pool and a gym
-        </p>
       </div>
 
-      <!-- Fontawesome Icons -->
-      <i></i>
-      <i></i>
-    </section>
 
-    <section>
-      <h2>Get in Touch</h2>
+
+  </section>
+
+  <section class="contact">
+    <h2 class="heading">Get in Touch</h2>
+    <div class="contact_text">
       <address>123, Executive Road, Abuja, Nigeria.</address>
-      <p>+(234) 12345678</p>
-      <div>
-        <!-- Fontawesome Icons -->
-        <i></i>
-        <i></i>
-        <i></i>
-      </div>
-      <a href="#">Contact Us</a>
-    </section>
+      <p class="phonenumber">+(234) 12345678</p>
+    </div>
 
-    <footer>
-      <p>2020 Hotel Grandeur. All Rights Reserved</p>
-      <div class="footer-nav">
-          <ul>
-              <li>
-                  <a href="#">Home</a>
-              </li>
-              <li>
-                  <a href="#">Rooms & Rates</a>
-              </li>
-              <li>
-                  <a href="#">Facilities</a>
-              </li>
-              <li>
-                  <a href="#">Contact Us</a>
-              </li>
-          </ul>
-      </div>
-    </footer>
+    <div class="contact_links">
+      <!-- Fontawesome Icons -->
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter ico"></i>
+      <i class="fab fa-instagram ico"></i>
+    </div>
+    <a href="../html/contact.html"><button class="contact_button"type="button" name="button">Contact Us</button></a>
+  </section>
+
+<footer>
+  <nav class="navbar navbar-expand-lg">
+    <p class="right">2020 Hotel Grandeur. All Rights Reserved</p>
+    <div class="footer-nav">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+        <li class="nav-item" >
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="..html/rooms.html">Rooms & Rates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../html/facilities.html">Facilities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../contact.html">Contact Us</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </nav>
+</footer>
 
 
 
+  <script src="https://kit.fontawesome.com/9ca83c5424.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -356,6 +398,6 @@
 
 
 
-  
+
 
 </html>
