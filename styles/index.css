@@ -1,13 +1,164 @@
+
+body {
+  overflow-x: hidden;
+}
+.first {
+background-image: linear-gradient( 109.6deg,  rgba(31,179,237,0.1) 11.2%, rgba(17,106,197,0.1) 91.1% ),url("../images/first.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.second {
+background-image: linear-gradient( 109.6deg,  rgba(31,179,237,0.1) 11.2%, rgba(17,106,197,0.1) 91.1% ),url("../images/second.png");
+  background-position: center;
+  background-size: cover;
+}
+.third {
+background-image: linear-gradient( 109.6deg,  rgba(31,179,237,0.1) 11.2%, rgba(17,106,197,0.1) 91.1% ),url("../images/third.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.fourth {
+background-image: linear-gradient( 109.6deg,  rgba(31,179,237,0.1) 11.2%, rgba(17,106,197,0.1) 91.1% ),url("../images/fourth.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-indicators > li {
+  border-radius: 50%;
+  width: 20px;
+  height: 10px;
+}
+.texts {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: white;
+}
+
+.text {
+  font-size: 1.5rem;
+  font-family: "bodoni_bd_btbold";
+}
+
+.boldtext{
+  font-size: 3rem;
+  font-family: "bodoni_bd_btbold";
+  font-weight: bold;
+}
+
+.bookbutton {
+  border: solid 1px white;
+  background: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.welcome {
+  padding:100px 0;
+  text-align: center;
+
+}
+
+.container {
+  position: inherit;
+     text-align: left;
+    padding: 0 150px;
+}
+
+.image2 {
+  position: absolute;
+  width:250px;
+  height:230px;
+  margin-top: 170px;
+  margin-left: 200px;
+
+}
+
+
+.image1 {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+}
+
+.welcome_text {
+  text-align: left;
+  font-family: "bodoni_bd_btbold";
+}
+
+.welcome_text h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+button {
+  margin: 20px 0;
+  background-color: #1b6ca8;
+  padding:10px;
+
+  text-align: center;
+  border: solid 1px #1b6ca8;
+  color: white;
+
+}
+
+.welcome_text p {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+}
+
+.rooms_rates {
+  margin: 50px 0px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.heading {
+  padding: 50px;
+  font-family: "bodoni_bd_btbold";
+}
+.pictures {
+
+  padding: 0 200px;
+  text-align: center;
+
+}
+
+.room_pic, .facility_pic {
+
+  width: 250px;
+  height: 400px;
+}
+
+.carousel-caption {
+
+  font-family: "bodoni_bd_btbold";
+  background-image: linear-gradient( 109.6deg,  rgba(31,179,237,0.3) 11.2%, rgba(17,106,197,0.3) 91.1% );
+}
+
+.rate {
+  color: #1b6ca8;
+  font-size: 1.5rem;
+}
+
+.facilities {
+  text-align: center;
+}
+
+.tour {
+  width: 100%;
+  height: 600px;
+}
+
+#my-video  {
+  width: 100%;
+  height: 400px;
+=======
 body{
     font-size: 16px;
     margin:0;
     padding: 0;
 }
-header{
-    background-image: url("../images/holiday-holidays-hotel-leisure-261395.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:100vh;
-    width:100vw;
-}
+
 

@@ -1,84 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./styles/index.css" />
-    <link rel="stylesheet" href="./styles/navigation.css">
-    <link rel="stylesheet" href="./styles/footer.css">
-    <title>Home | Hotel Grandeur</title>
-  </head>
-  <body>
-    <nav>
-      <img src="logo" />
-      <ul>
-        <li>Home</li>
-        <li>Rooms & Rates</li>
-        <li>Facilities</li>
-        <li>Contact Us</li>
-      </ul>
-    </nav>
 
-    <header>
-      <h2>Welcome to</h2>
-      <h1>Hotel Grandeur</h1>
-      <a href="#">Book Now</a>
-    </header>
 
-    <section>
-      <img />
-      <div>
-        <h2>Welcome to Hotel Grandeur</h2>
-        <p>
-          The Hotel Grandeur is the right choice for guests who are searching
-          for a combination of charm,peace and quiet,and a convenient place from
-          which to explore surroundings. Hotel Grandeur is a place for everyone,
-          a place like home.
-        </p>
-        <a href="#">Book Now</a>
-      </div>
-    </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Grandeur</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/navigation.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/stylesheet.css">
+<!-- Video Player -->
+<link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
 
-    <section>
-      <h2>Our Rooms and Rates</h2>
-      <div>
-        <img />
-        <p><span>From $25</span> - 1 guest</p>
-        <h3>Single Room</h3>
-      </div>
-      <div>
-        <img />
-        <p><span>From $25</span> - 2 guest</p>
-        <h3>Double Room</h3>
-      </div>
-      <div>
-        <img />
-        <p><span>From $25</span> - 3 guest</p>
-        <h3>Family Room</h3>
-      </div>
-      <a href="#">View More</a>
-    </section>
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+</head>
 
-    <section>
-      <h2>Our Facilities</h2>
-      <div>
-        <img />
-        <h3>Swimming Pool</h3>
-      </div>
-      <div>
-        <img />
-        <h3>Wellness Spa</h3>
-      </div>
-      <div>
-        <img />
-        <h3>Gymnasium</h3>
-      </div>
-      <a href="#">View More</a>
-    </section>
+<body>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active first">
 
-    <section>
-      <!-- Video goes here -->
-    </section>
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg ">
+          <a class="navbar-brand" href="index.html">Grandeur</a>
+          <button class="toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path>
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/rooms.html">Rooms & Rates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/facilities.html">Facilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/contact.html">Contact Us</a>
+              </li>
+            </ul>
+
+
+          </div>
+        </nav>
+        <div class="texts">
+          <p class="text">Welcome to</p>
+          <p class="boldtext">Hotel Grandeur</p>
+          <a href="html/book.html">
+            <button class="bookbutton" type="button" name="button">Book Now</button>
+          </a>
+        </div>
+
+      </div>
+      <div class="carousel-item second">
+
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg ">
+          <a class="navbar-brand" href="/">Grandeur</a>
+          <button class="toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path>
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/rooms.html">Rooms & Rates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/facilities.html">Facilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/contact.html">Contact Us</a>
+              </li>
+            </ul>
+
+
+          </div>
+        </nav>
+        <div class="texts">
+          <p class="text">Welcome to</p>
+          <p class="boldtext">Hotel Grandeur</p>
+          <a href="/html/book.html">
+            <button class="bookbutton" type="button" name="button">Book Now</button>
+          </a>
+        </div>
+
+      </div>
+      <div class="carousel-item third">
+
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg ">
+          <a class="navbar-brand" href="/">Grandeur</a>
+          <button class="toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path>
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/rooms.html">Rooms & Rates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/facilities.html">Facilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/contact.html">Contact Us</a>
+              </li>
+            </ul>
+
+
+          </div>
+        </nav>
+        <div class="texts">
+          <p class="text">Welcome to</p>
+          <p class="boldtext">Hotel Grandeur</p>
+          <a href="/html/book.html">
+            <button class="bookbutton" type="button" name="button">Book Now</button>
+          </a>
+        </div>
+
+      </div>
+      <div class="carousel-item fourth">
+
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg ">
+          <a class="navbar-brand" href="/">Grandeur</a>
+          <button class="toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false">
+              <title>Menu</title>
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path>
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/rooms.html">Rooms & Rates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/facilities.html">Facilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/contact.html">Contact Us</a>
+              </li>
+            </ul>
+
+
+          </div>
+        </nav>
+        <div class="texts">
+          <p class="text">Welcome to</p>
+          <p class="boldtext">Hotel Grandeur</p>
+          <a href="/html/book.html">
+            <button class="bookbutton" type="button" name="button">Book Now</button>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <section class="welcome">
+    <div class="row">
+      <div class="col-sm ">
+        <div class="container">
+          <div class="imageOne image"> <img class="image1" src="images/pool.jpg" alt="empty lounge"></div>
+          <div class="imageTwo image"> <img class="image2" src="images/third.jpg" alt="empty lounge"></div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="welcome_text">
+          <h2 >Welcome to <br><span class="boldtext">Hotel Grandeur</span></h2>
+          <p>
+            The Hotel Grandeur is the right choice for guests who are searching
+            for a combination of charm,peace and quiet,and a convenient place from
+            which to explore surroundings. <br><br>
+            Hotel Grandeur is a place for everyone,
+            a place like home.
+          </p>
+          <button class="button">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rooms_rates">
+    <h2 class="heading">Our Rooms & Rates</h2>
+    <div class="row pictures">
+      <div class="col-sm">
+        <img class="room_pic" src="images/room1.jpg" alt="room">
+        <div class="carousel-caption d-none d-md-block">
+
+          <p>
+            <span class="rate">From 25$</span> - 1 guest.
+          </p>
+          <p class="type">Single Room</p>
+        </div>
+      </div>
+      <div class="col-sm">
+        <img class="room_pic" src="images/room2.jpg" alt="room">
+        <div class="carousel-caption d-none d-md-block">
+
+          <p>
+            <span class="rate">From 35$</span> - 2 guests.
+          </p>
+          <p class="type">Double Room</p>
+        </div>
+      </div>
+      <div class="col-sm">
+        <img class="room_pic" src="images/room3.jpg" alt="room">
+        <div class="carousel-caption d-none d-md-block">
+
+          <p>
+            <span class="rate">From 45$</span> - 3 guests.
+          </p>
+          <p class="type">Family Room</p>
+        </div>
+      </div>
+    </div>
+    <a href="html/rooms_rates.html">
+      <button type="button" name="button">View More</button>
+    </a>
+
+  </section>
+
+  <section class="facilities">
+    <h2 class="heading">Our Facilities</h2>
+    <div class="row pictures">
+      <div class="col-sm">
+        <img class="facility_pic" src="images/pool.jpg" alt="Swimming Pool">
+        <div class="carousel-caption d-none d-md-block">
+
+          <p class="type">Swimming Pool</p>
+        </div>
+      </div>
+      <div class="col-sm">
+        <img class="facility_pic" src="images/spa.jpg" alt="Spa">
+        <div class="carousel-caption d-none d-md-block">
+
+          <p class="type">Wellness Spa</p>
+        </div>
+      </div>
+      <div class="col-sm">
+        <img class="facility_pic" src="images/gym.jpg" alt="Gym">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="type">Gymnasium</p>
+        </div>
+      </div>
+    </div>
+    <a href="html/rooms_rates.html">
+      <button type="button" name="button">View More</button>
+    </a>
+
+  </section>
+  <section class="tour">
+    <video
+  id="my-video"
+  class="video-js vjs-big-play-centered"
+  controls
+  preload="auto"
+  poster="images/tour.png"
+  data-setup="{}"
+>
+<source src="videos/tour.mp4" type="video/mp4" />
+    </video>
+  </section>
+
 
     <section>
       <h2>Our Happy Clients</h2>
@@ -133,5 +345,17 @@
       </div>
     </footer>
 
-  </body>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://vjs.zencdn.net/7.8.2/video.js"></script>
+</body>
+
+
+
+
+  
+
 </html>
