@@ -30,7 +30,7 @@ nav .nav-link {
 }
 
 nav {
-  border: solid 1px white;
+  border-bottom: solid 1px white;
 }
 nav svg {
   color: white;
