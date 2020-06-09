@@ -1,3 +1,4 @@
+
 body {
   overflow-x: hidden;
 }
@@ -153,4 +154,11 @@ background-image: linear-gradient( 110.3deg,  rgba(72,85,99,0.6) 8.8%, rgba(127,
 #my-video  {
   width: 100%;
   height: 400px;
+=======
+body{
+    font-size: 16px;
+    margin:0;
+    padding: 0;
 }
+
+
