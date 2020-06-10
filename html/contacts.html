@@ -22,30 +22,35 @@
             <img src="../images/header_1024.png" alt="A Living room">
         </picture>
         <div class="overlay">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <span class="navbar-brand" href="#">Grandeur</span>
-                    <button class="toggler navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false">
-                            <title>Menu</title>
-                            <path stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path>
-                        </svg>
+            <nav class="navbar navbar-custom fixed-top navbar-expand-lg py-0">
+                <div class="container">
+                    <a class="navbar-brand navbar-brand_custom" href="#">Grandeur</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-reorder" style="color: #ffffff;"></i>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarToggle">
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active"><a class="nav-link" href="../index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../html/rooms.html">Rooms & Rates</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../html/facilities.html">Facilities</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../html/contacts.html">Contact Us</a></li>
+                            <li class="nav-item mr-5 py-4">
+                                <a class="nav-link" href="../index.html">HOME</a>
+                            </li>
+                            <li class="nav-item mr-5 py-4">
+                                <a class="nav-link" href="../html/rooms.html">ROOMS & RATES</a>
+                            </li>
+                            <li class="nav-item mr-5 py-4">
+                                <a class="nav-link" href="../html/facilities.html">FACILITIES</a>
+                            </li>
+                            <li class="nav-item active-link mr-5 py-4">
+                                <a class="nav-link" href="../html/contact.html">CONTACT US</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
-              </nav>
+            </nav>
 
             <div class="hero-text">
                 <h1>
-                    <span>Discover</span>
-                    <span>our rooms</span>
+                    <span>Contact us</span>
                 </h1>
             </div>
             <div class="scroll-btn"><i class="fa fa-chevron-circle-down"></i></div>
@@ -53,41 +58,46 @@
     </header> 
 
     <section id="enquiries">
-        <div class="container-fluid d-flex">
+        <div class="container-fluid h-100 align-items-center d-flex">
           <div id="contact-info">
 
-            <div id="enquiries-info">
-                <h3>General Enquires</h3>
-                <div class="phone">
-                    <span>
-                        <p> <i class="fa fa-phone"></i>+234 81 567 890 77 </p>
-                    </span>
-                    <p>+234 81 567 890 77</p>
+            <div id="enquiries-info" class="mb-5">
+                <h3 class="mb-4">General Enquires</h3>
+                <div id="phone" class="d-flex">
+                    <span class="mr-3"><i class="fa fa-phone"></i></span>
+                    <div id="numbers">
+                        <p>+234 81 567 890 77 </p>
+                        <p>+234 81 567 890 77</p>
+                    </div>
                 </div>
-                <div class="mail">
-                    <span><i class="fa fa-envelope-o"></i> hello@gmail.com</span>
+                <div id="mail" class="d-flex">
+                    <span class="mr-3"><i class="fa fa-envelope-o"></i></span>
+                    <p class="email">hello@gmail.com</p>
                 </div>
             </div>
 
-            <div id="location"> 
-                <h3> Our Location </h3>
-                <span><i class="fa fa-map-marker"></i></span>
-                <div class="road">
-                    <p> 123,Executive Road,Abuja,Nigeria. </p>
-                    <p>123,Executive Road,Lagos,Nigeria.</p>
-                    <p>123,Executive Road,Edo state,Nigeria.</p>
+            <div id="location" class="mb-5"> 
+                <h3 class="mb-4"> Our Location </h3>
+                <div id="location-info" class="d-flex">
+                    <span class="mr-3"><i class="fa fa-map-marker"></i></span>
+                    <div id="road">
+                        <p> 123,Executive Road,Abuja,Nigeria. </p>
+                        <p>123,Executive Road,Lagos,Nigeria.</p>
+                        <p>123,Executive Road,Edo state,Nigeria.</p>
+                    </div>
+                </div>
+                <div id="icons" class="d-flex justify-content-around">
+                    <a href="#"><i class="fa fa-facebook"></i> </a>
+                    <a href="#"><i class="fa fa-twitter"></i> </a>
+                    <a href="#"><i class="fa fa-instagram"></i> </a>
                 </div>
             </div> 
-            <div id="icons">
-                <a href="#"><i class="fa fa-facebook"></i> </a>
-                <a href="#"><i class="fa fa-twitter"></i> </a>
-                <a href="#"><i class="fa fa-instagram"></i> </a>
-            </div>
+            
 
         </div>
 
         <div id="contact-form">
-            <h3>Contact Us</h3>
+            <h3 class="mb-4">Contact Us</h3>
             <form action="">
                 <div class="form-group">
                   <input name="full-name" id="full-name" type="text" class="form-control" placeholder="Full name" required pattern="/^[a-zA-Z]{5,12}$/i">  
@@ -99,7 +109,7 @@
                    <textarea name="message" id="message" cols="30" rows="8" class="form-control" placeholder="Message" required></textarea> 
                 </div>
                 
-                <button type="button" class="btn">Send Now</button>
+                <input type="submit" value="Send Now" class="btn">
             </form>
         </div>  
         </div>
@@ -115,18 +125,27 @@
         </picture>
     </section>
 
-   <footer>
-        <p>2020 Hotel Grandeur. All Rights Reserved</p>
-        <div class="footer-nav">
-            <ul>
-                <li>Home</li>
-                <li>Rooms & Rates</li>
-                <li>Facilities</li>
-                <li>Contact Us</li>
+    <footer class="container">
+        <div class="footer-section">
+            <p>&copy; 2020 Hotel Grandeur. All Rights Reserved</p>
+            <ul class="ml-auto">
+                <li class="mr-3">
+                    <a class="" href="../index.html">HOME</a>
+                </li>
+                <li class="mr-3">
+                    <a class="" href="./rooms.html">ROOMS & RATES</a>
+                </li>
+                <li class="mr-3">
+                    <a class="" href="./facilities.html">FACILITIES</a>
+                </li>
+                <li class="mr-3">
+                    <a class="" href="./contacts.html">CONTACT US</a>
+                </li>
             </ul>
         </div>
     </footer>
 
+    <script src="../scripts/scroll.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
