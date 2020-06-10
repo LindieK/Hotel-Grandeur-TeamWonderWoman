@@ -1,0 +1,146 @@
+
+#contact-info, #contact-form{
+    width: 50%;
+}
+#contact-form h3, form{
+    width: 70%;
+    margin: 0 auto;
+}
+#enquiries{
+    height: 100vh;
+    width: 100vw;
+}
+#enquiries-info, #location, #icons{
+    width: 70%;
+    margin: 0 auto;
+}
+#map{
+    height: 50vh;
+    width: 100vw;
+}
+/*.cont{
+    margin-top: -250px;
+    position: relative;
+    margin-left: 250px;
+    color: white;
+
+}
+h1{
+    font-size: 72px;
+    text-align: right;
+    margin-top: -400px;
+}
+/*container holding the image
+.container{
+    position: relative;
+    margin: 0;
+    width: 100%;
+    object-fit: cover;
+    
+
+}
+
+.fa-chevron-circle-down{
+    text-align: center;
+    font-size: 72px;
+    padding: 90px;
+    margin-left: 300px;
+}
+
+.enquires{
+    margin-left: 250px;
+    margin-top: 150px;
+    
+}
+.enquires > p{
+        margin-left: 60px;
+        margin-top: -25px;
+        margin-bottom: 50px;
+        font-size: 24px;
+}
+.fa-phone{
+    font-size: 20px;
+    margin-top: 18px;
+    margin-left: 0px;
+    
+}
+
+.mail > span{
+    margin: 350px 0 0 250px;
+    font-size: 22px;
+    padding: 100px  0px 0px opx;
+
+}
+
+.contact{
+    float: right;
+    display: inline;
+    margin: -150px 0px 0px 0px;
+}
+
+input{
+    padding: 40px;
+    font-size: 24px;
+}
+
+.location{
+    margin:50px 0 0 250px;
+    font-size: 24px;
+
+}
+
+.fa-map-maker{
+    font-size: 16px;
+    
+    margin-left: -10px;
+
+}
+
+.btn-primary{
+    padding: 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.road > p{
+    margin-left: 10px;
+    margin-top: -50px;
+    padding: 15px;
+    
+}
+.icons{
+    margin-left: 350px;
+    margin-top: -20px;
+    
+}
+
+.fa-facebook{
+    font-size: 24px;
+    color: black;
+    padding: 5px;
+}
+.fa-twitter{
+    font-size: 24px;
+    color: black;
+    padding: 5px;
+}
+
+.fa-instagram{
+    font-size: 24px;
+    color: black;
+    padding: 5px;
+}
+
+
+ul{
+    float: right;
+    margin: -100px 200px 0px 0px;
+}
+
+li{
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    color: black;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
