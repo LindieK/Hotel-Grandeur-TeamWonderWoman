@@ -1,14 +1,21 @@
 /* Footer Section */
 .footer-section {
     display: flex;
+    flex-direction: row;
     align-items: center;
     padding: 10px 0;
+}
+
+.footer-section p {
+    font-size: 14px;
+    color: #1C1C1C;
 }
 
 .footer-section ul {
     list-style: none;
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .footer-section a {
@@ -19,6 +26,18 @@
 .footer-section a:hover {
     text-decoration: none;
 }
+
+@media only screen and (max-width: 800px) {
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-section ul {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 700px){
 
     .footer-section {
