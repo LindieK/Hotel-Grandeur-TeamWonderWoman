@@ -28,15 +28,15 @@
 
 /* Carousel CSS */
 
+.carousel-item img {
+    height: 90vh;
+}
+
 .carousel-indicators > li {
     border: 2px solid #ffffff;
     border-radius: 100%;
     width: 10px;
     height: 10px;
-}
-
-.carousel-inner{
-    height: 100vh;
 }
 
 .btn-book {
@@ -243,6 +243,29 @@
 /**************************************************
     * @media queries *
 ***************************************************/
+
+@media only screen and (max-width: 800px) {
+
+    .first-image > img {
+        width: 300px;
+        height: 400px;
+    }
+    
+    .second-image > img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .room-image > img {
+        width: 200px;
+        height: 300px;
+    }
+
+    .facility-image > img {
+        width: 200px;
+        height: 300px;
+    }
+}
 
 @media only screen and (max-width: 700px) {
 

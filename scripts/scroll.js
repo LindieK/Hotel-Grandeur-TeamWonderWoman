@@ -7,4 +7,5 @@ window.addEventListener('scroll', () => {
     } else {
         navbar.style.backgroundColor = '#3B8CC6';
         navbar.style.borderBottomColor = "#3B8CC6";
+    }
 });
