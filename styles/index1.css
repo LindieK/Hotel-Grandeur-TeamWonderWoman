@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Navbar CSS */
+.navbar-custom {
+    border-bottom: 1px solid #ffffff;
+}
+
+.navbar-brand_custom {
+    font-size: 24px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.navbar-brand_custom:hover {
+    color: #ffffff;
+}
+
+.navbar-nav li:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.navbar-nav li a {
+    color: #ffffff;
+}
+
+.navbar-nav li a:hover {
+    color: #ffffff !important;
+}
+
+.active-link {
+    border-bottom: 2px solid #ffffff;
+}
+
+.header-section {
+    position: relative;
+}
+
+.header-section_title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.header-section_title h3 {
+    font-size: 28px;
+}
+
+.header-section_title h1 {
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+
+/* Carousel CSS */
+.carousel-item img {
+    height: 90vh;
+}
+
+.carousel-indicators > li {
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+}
+
+.btn-book {
+    font-size: 18px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.btn-book:hover {
+    background-color: #ffffff;
+}
+
+/* Introduction Section CSS */
+
+.row-custom {
+    margin-top: 6rem;
+}
+
+.twin-image {
+    display: flex;
+    position: relative;
+    min-height: 400px;
+}
+
+.first-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.first-image > img {
+    width: 300px;
+    height: 400px;
+}
+
+.second-image {
+    position: absolute;
+    bottom: 0;
+    left: 160px;
+}
+
+.second-image > img {
+    width: 300px;
+    height: 200px;
+}
+
+.welcome-message > h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1C1C1C;
+    margin-bottom: 2rem;
+}
+
+.welcome-message > p {
+    font-size: 18px;
+    color: #1C1C1C;
+    margin-bottom: 2rem;
+}
+
+.btn-book_blue {
+    font-size: 18px;
+    color: #ffffff !important;
+    background-color: #3B8CC6;
+    border: 1px solid #3B8CC6;
+}
+
+/* Rooms & Rates Section CSS */
+
+.rooms-section {
+    background-color: #E5E5E5;
+    margin-top: 6rem;
+    padding: 3rem 0;
+}
+
+.rooms-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.room-image {
+    position: relative;
+    color: #ffffff;
+}
+
+.room-image_last {
+    display: flex;
+}
+
+.room-image > img {
+    width: 300px;
+    height: 400px;
+}
+
+.room-image h6 {
+    position: absolute;
+    bottom: 30px;
+    left: 24px;
+}
+
+.room-image span {
+    color: #3B8CC6;
+}
+
+.room-image h5 {
+    position: absolute;
+    bottom: 5px;
+    left: 24px;
+}
+
+/* Facility Section CSS */
+
+.facilities-section {
+    margin-top: 6rem;
+}
+
+.facilities-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.facility-image {
+    position: relative;
+    color: #ffffff;
+}
+
+.facility-image_last {
+    display: flex;
+}
+
+.facility-image > img {
+    width: 300px;
+    height: 400px;
+}
+
+.facility-image h5 {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+/* Video Section */
+.video-section {
+    display: flex;
+    margin-top: 6rem;
+    width: 100%;
+    height: 400px;
+}
+
+.played-video {
+    width: 100%;
+    height: 100%;
+}
+
+/* Client Section */
+.client-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E5E5;
+    padding: 3rem 0;
+}
+
+.client-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+.client {
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.client img {
+    border-radius: 50%;
+    height: 120px;
+    margin: -75px auto 22px auto;
+    vertical-align: top;
+    text-align: center;
+}
+
+.client h6 {
+    color: #3B8CC6;
+}
+
+.client p {
+    font-size: 16px;
+}
+
+/* Contact Section */
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/videoTour2_900.png');
+    color: #ffffff;
+}
+
+/* Footer Section */
+.footer-section {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer-section a {
+    font-size: 14px;
+    color: #1C1C1C;
+}
+
+.footer-section a:hover {
+    text-decoration: none;
+}
+
+/**************************************************
+    * @media queries *
+***************************************************/
+
+@media only screen and (max-width: 700px) {
+    .navbar-custom {
+        background-color: #3B8CC6;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .header-section_title h3 {
+        font-size: 22px;
+    }
+    
+    .header-section_title h1 {
+        font-size: 40px;
+        margin-bottom: 2rem;
+    }
+
+    /* Introduction CSS */
+    .row-custom {
+        margin-top: 2rem;
+    }
+
+    .twin-image {
+        display: none;
+    }
+
+    .welcome-message > h2 {
+        font-size: 32px;
+    }
+    
+    .welcome-message > p {
+        font-size: 16px;
+    }
+
+    /* Rooms & Rates Section CSS */
+
+    .rooms-section {
+        margin-top: 1rem;
+    }
+
+    .rooms-section h2 {
+        font-size: 24px;
+    }
+
+    .room-image > img {
+        width: 100%;
+        height: 330px;
+    }
+
+    .room-image_last {
+        display: none;
+    }
+
+    /* Facility Section CSS */
+
+    .facilities-section {
+        margin-top: 2rem;
+    }
+
+    .facilities-section h2 {
+        font-size: 24px;
+        margin-bottom: 2rem;
+    }
+
+    .facility-image > img {
+        width: 100%;
+        height: 330px;
+    }
+
+    .facility-image_last {
+        display: none;
+    }
+
+    /* Video Section */
+    .video-section {
+        display: none;
+    }
+
+    /* Client Section */
+    .client-section {
+        display: none;
+    }
+
+    /* Contact Section */
+
+    .contact-section {
+        margin-top: 2rem;
+    }
+
+    /* Footer Section */
+
+    .footer-section {
+        justify-content: center;
+    }
+
+    .footer-section ul {
+        display: none;
+    }
+}
