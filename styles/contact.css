@@ -20,11 +20,9 @@ h1{
 
 }
 
-.fa-chevron-circle-down{
-    text-align: center;
-    font-size: 72px;
-    padding: 90px;
-    margin-left: 300px;
+.cont > img{
+    width: 100px;
+    height: 200px;
 }
 
 .enquires{
