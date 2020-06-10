@@ -4,23 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FACILITIES</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/f8d6fada5b.js"></script>
     <link rel="stylesheet" href="../styles/navigation.css">
     <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/general-styles.css">
+    <link rel="stylesheet" href="../styles/common-styles-headers.css">
+    <link rel="stylesheet" href="../styles/facilities-rooms.css">
     <link rel="stylesheet" href="../styles/facilities.css">
 </head>
 <body>
     <!--showcase and Nav-->
     <header>
-        <img src="../images/Rectangle 23.png" alt="A Living room">
+        <picture>
+            <source media="(min-width: 801px)" srcset="../images/header_1024.png">
+            <source media="(min-width: 600px)" srcset="../images/header_900.png">
+                <source media="(max-width: 599px)" srcset="../images/header_600.png">
+            <img src="../images/header_1024.png" alt="A Living room">
+        </picture>
         <div class="overlay">
-            <nav>
-                <img src="logo" />
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="#">Rooms & Rates</a></li>
-                    <li><a href="#">Facilities</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
+            <nav class="navbar navbar-custom fixed-top navbar-expand-lg py-0">
+                <div class="container">
+                    <a class="navbar-brand navbar-brand_custom" href="#">Grandeur</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-reorder" style="color: #ffffff;"></i>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item mr-5 py-4">
+                                <a class="nav-link" href="../index.html">HOME</a>
+                            </li>
+                            <li class="nav-item mr-5 py-4">
+                                <a class="nav-link" href="./rooms.html">ROOMS & RATES</a>
+                            </li>
+                            <li class="nav-item active-link mr-5 py-4">
+                                <a class="nav-link" href="./facilities.html">FACILITIES</a>
+                            </li>
+                            <li class="nav-item mr-5 py-4">
+                                <a class="nav-link" href="./contacts.html">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
             <div class="hero-text">
                 <h1>
@@ -28,32 +54,43 @@
                     <span>Facilities</span>
                 </h1>
             </div>
-            <div class="scroll-btn"></div>
+            <div class="scroll-btn"><i class="fa fa-chevron-circle-down"></i></div>
         </div>
     </header>
 
     <!--section one -->
      <section id="pool" >
-        <div class="container">
-            <div class="d-flex"> 
+        <div class="box">
+            <div class="d-flex">
                 <div class="section-img">
-                <img src="../images/architecture-chair-glass-hotel-261041.jpg" alt="images/architecture-chair-glass-hotel-261041.jpg">
-            </div>
-            <div class="section-text">
-                <div class="content">
-                    <h2>Swimming pool</h2>
-                    <p>Our pool and it's bar are designed to provide excellent chill times with family and friends. it is also child-friendly and clean at all times</p>
+                    <picture>
+                        <source media="(min-width: 801px)" srcset="../images/pool_1024.jpg">
+                        <source media="(min-width: 600px)" srcset="../images/pool_900.jpg">
+                        <source media="(max-width: 599px)" srcset="../images/pool_600.jpg">
+                        <img src="../images/pool_1024.jpg" alt="images/architecture-chair-glass-hotel-261041.jpg">
+                    </picture>
                 </div>
-            </div>
+                <div class="section-text">
+                    <div class="content">
+                        <h2>Swimming pool</h2>
+                        <p>Our pool and it's bar are designed to provide excellent chill times with family and friends. it is also child-friendly and clean at all times</p>
+                    </div>
+                </div>
               </div>
             </div>
         </section>
+
         <!--section two -->
      <section id="spa" >
-        <div class="container">
-            <div class="d-flex"> 
+        <div class="box">
+            <div class="d-flex">
                 <div class="section-img">
-                    <img src="../images/woman-lying-on-blue-textile-3997993.jpg" alt="woman-lying-on-blue-textile-3997993.jpg">
+                    <picture>
+                        <source media="(min-width: 801px)" srcset="../images/spa_1024.jpg">
+                        <source media="(min-width: 600px)" srcset="../images/spa_900.jpg">
+                        <source media="(max-width: 599px)" srcset="../images/spa_600.jpg">
+                        <img src="../images/spa_1024.jpg" alt="A Living room">
+                    </picture>
                 </div>
                 <div class="section-text">
                     <div class="content">
@@ -65,28 +102,40 @@
               </div>
             </div>
         </section>
+
     <!--section three -->
      <section id="gym" >
-        <div class="container">
-            <div class="d-flex Fitness-Gym"> 
+        <div class="box">
+            <div class="d-flex Fitness-Gym">
                 <div class="section-img">
-                    <img src="../images/an-on-treadmill-1954524.jpg" alt="an-on-treadmill-1954524.jpg">
+                    <picture>
+                        <source media="(min-width: 801px)" srcset="../images/gym_1024.jpg">
+                        <source media="(min-width: 600px)" srcset="../images/gym_900.jpg">
+                        <source media="(max-width: 599px)" srcset="../images/gym_600.jpg">
+                        <img src="../images/gym_1024.jpg" alt="A Living room">
+                    </picture>
                 </div>
                 <div class="section-text">
                     <div class="content">
                        <h2>Fitness Gym</h2>
-                        <p>We have the most equipped gym in Lagos with an instructor always available. We have male and female instructors and everything is suited to fit your scheldule.</p> 
+                        <p>We have the most equipped gym in Lagos with an instructor always available. We have male and female instructors and everything is suited to fit your scheldule.</p>
                     </div>
                 </div>
               </div>
             </div>
         </section>
+
     <!--section four -->
      <section id="business" >
-        <div class="container">
-            <div class="d-flex"> 
+        <div class="box">
+            <div class="d-flex">
                 <div class="section-img">
-                    <img src="../images/chairs-daylight-designer-empty-416320.jpg" alt="chairs-daylight-designer-empty-416320.jpg">
+                    <picture>
+                        <source media="(min-width: 801px)" srcset="../images/business_1024.jpg">
+                        <source media="(min-width: 600px)" srcset="../images/business_900.jpg">
+                        <source media="(max-width: 599px)" srcset="../images/business_600.jpg">
+                        <img src="../images/business_1024.jpg" alt="A Living room">
+                    </picture>
                 </div>
                 <div class="section-text">
                     <div class="content">
@@ -98,25 +147,31 @@
               </div>
             </div>
         </section>
+
     <!--section footer -->
-    <footer>
-        <p>2020 Hotel Grandeur. All Rights Reserved</p>
-        <div class="footer-nav">
-            <ul>
-                <li>
-                    <a href="#">Home</a>
+    <footer class="container">
+        <div class="footer-section">
+            <p>&copy; 2020 Hotel Grandeur. All Rights Reserved</p>
+            <ul class="ml-auto">
+                <li class="mr-3">
+                    <a class="" href="../index.html">HOME</a>
                 </li>
-                <li>
-                    <a href="#">Rooms & Rates</a>
+                <li class="mr-3">
+                    <a class="" href="./rooms.html">ROOMS & RATES</a>
                 </li>
-                <li>
-                    <a href="#">Facilities</a>
+                <li class="mr-3">
+                    <a class="" href="./facilities.html">FACILITIES</a>
                 </li>
-                <li>
-                    <a href="#">Contact Us</a>
+                <li class="mr-3">
+                    <a class="" href="./contacts.html">CONTACT US</a>
                 </li>
             </ul>
         </div>
-      </footer>
+    </footer>
+
+      <script src="../scripts/scroll.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

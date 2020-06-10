@@ -1,228 +1,352 @@
-
-.first {
-background-image: linear-gradient( 109.6deg,  rgba(31,179,237,0.1) 11.2%, rgba(17,106,197,0.1) 91.1% ),url("../images/first.jpg");
-  background-position: center;
-  background-size: cover;
+.header-section {
+    position: relative;
 }
 
-.second {
-background-image: linear-gradient( 109.6deg,  rgba(31,179,237,0.1) 11.2%, rgba(17,106,197,0.1) 91.1% ),url("../images/second.png");
-  background-position: center;
-  background-size: cover;
+.header-section_title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    color: #ffffff;
 }
-.third {
-background-image: linear-gradient( 109.6deg,  rgba(31,179,237,0.1) 11.2%, rgba(17,106,197,0.1) 91.1% ),url("../images/third.jpg");
-  background-position: center;
-  background-size: cover;
+
+.header-section_title h3 {
+    font-size: 28px;
 }
-.fourth {
-background-image: linear-gradient( 109.6deg,  rgba(31,179,237,0.1) 11.2%, rgba(17,106,197,0.1) 91.1% ),url("../images/fourth.png");
-  background-position: center;
-  background-size: cover;
+
+.header-section_title h1 {
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+
+/* Carousel CSS */
+
+.carousel-item img {
+    height: 90vh;
 }
 
 .carousel-indicators > li {
-  border-radius: 50%;
-  width: 20px;
-  height: 10px;
-}
-.texts {
-  text-align: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  color: white;
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
 }
 
-.text {
-  font-size: 1.5rem;
-  font-family: "bodoni_bd_btbold";
+.btn-book {
+    font-size: 18px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
 }
 
-.boldtext{
-  font-size: 3rem;
-  font-family: "bodoni_bd_btbold";
-  font-weight: bold;
+.btn-book:hover {
+    background-color: #ffffff;
 }
 
-.bookbutton, .contact_button {
-  border: solid 1px white;
-  background: none;
-  color: white;
-  font-size: 1.5rem;
+/* Introduction Section CSS */
+
+.row-custom {
+    margin-top: 6rem;
 }
 
-.welcome {
-  padding:100px 0;
-  text-align: center;
-
+.twin-image {
+    display: flex;
+    position: relative;
+    min-height: 400px;
 }
 
-.container {
-  position: inherit;
-     text-align: left;
-    padding: 0 150px;
+.first-image {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.image2 {
-  position: absolute;
-  width:250px;
-  height:230px;
-  margin-top: 170px;
-  margin-left: 200px;
-
+.first-image > img {
+    width: 300px;
+    height: 400px;
 }
 
-
-.image1 {
-  position: absolute;
-  width: 300px;
-  height: 400px;
+.second-image {
+    position: absolute;
+    bottom: 0;
+    left: 160px;
 }
 
-.welcome_text {
-  text-align: left;
-  font-family: "bodoni_bd_btbold";
+.second-image > img {
+    width: 300px;
+    height: 200px;
 }
 
-.welcome_text h2 {
-  margin-bottom: 20px;
-  font-size: 2.5rem;
+.welcome-message > h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1C1C1C;
+    margin-bottom: 2rem;
 }
 
-button {
-  margin: 20px 0;
-  background-color: #1b6ca8;
-  padding:10px;
-
-  text-align: center;
-  border: solid 1px #1b6ca8;
-  color: white;
-
+.welcome-message > p {
+    font-size: 18px;
+    color: #1C1C1C;
+    margin-bottom: 2rem;
 }
 
-.welcome_text p {
-  font-family: "Roboto";
-  font-size: 1.5rem;
+.btn-book_blue {
+    font-size: 18px;
+    color: #ffffff !important;
+    background-color: #3B8CC6;
+    border: 1px solid #3B8CC6;
 }
 
-.rooms_rates {
-  margin: 50px 0px;
-  background-color: #f9f9f9;
-  text-align: center;
+/* Rooms & Rates Section CSS */
+
+.rooms-section {
+    background-color: #E5E5E5;
+    margin-top: 6rem;
+    padding: 3rem 0;
 }
 
-.heading {
-  padding: 50px;
-  font-family: "bodoni_bd_btbold";
-}
-.pictures {
-
-  padding: 0 200px;
-  text-align: center;
-
+.rooms-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 3rem;
 }
 
-.room_pic, .facility_pic {
-
-  width: 250px;
-  height: 400px;
+.room-image {
+    position: relative;
+    color: #ffffff;
 }
 
-.carousel-caption {
-
-  font-family: "bodoni_bd_btbold";
-background-image: linear-gradient( 110.3deg,  rgba(72,85,99,0.6) 8.8%, rgba(127,146,166,0.4) 95.1% );
+.room-image_last {
+    display: flex;
 }
 
-.rate {
-  color: #1b6ca8;
-  font-size: 1.5rem;
+.room-image > img {
+    width: 300px;
+    height: 400px;
 }
 
-.facilities {
-  text-align: center;
+.room-image h6 {
+    position: absolute;
+    bottom: 30px;
+    left: 24px;
 }
 
-.tour {
-  width: 100%;
-  height: 300px;
+.room-image span {
+    color: #3B8CC6;
 }
 
-#my-video  {
-  width: 100%;
-  height: 400px;
-
+.room-image h5 {
+    position: absolute;
+    bottom: 5px;
+    left: 24px;
 }
 
-.reviews{
-  margin:150px 0px 10px 0px;
-  text-align: center;
-  background-color: #f9f9f9;
+/* Facility Section CSS */
 
+.facilities-section {
+    margin-top: 6rem;
 }
 
-.carousel-item .card {
-  font-family:"Roboto";
-  width: 50%;
-  margin-left:25%;
-  margin-right: 25%;
-  margin-bottom: 100px;
-  background-color: white;
-  border: none;
+.facilities-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 3rem;
 }
 
-
-
-.role {
-  color: blue;
-}
-.controls {
-
-  text-align: center;
-  height: 400px;
-
-}
-  .controls a {
- /* margin-top: 15%; */
-  width: 5%;
-  text-align: center;
-  margin-left:45%;
-  margin-right: 48%;
-  background: none;
+.facility-image {
+    position: relative;
+    color: #ffffff;
 }
 
-.next {
-color : white;
-background-color: #1b6ca8;
-font-size: 1.5rem;
-margin-left: 10px;
+.facility-image_last {
+    display: flex;
 }
 
-.previous {
-  color: black;
-  font-size: 1.5rem;
-  background-color: grey;
+.facility-image > img {
+    width: 300px;
+    height: 400px;
 }
 
-.contact {
-  padding: 50px 0;
-  text-align: center;
-  background-image: url("../images/tour.png");
-  background-position: center;
-  color: white;
+.facility-image h5 {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
 }
 
-.contact_text {
-  font-family: "Roboto";
-  text-align: center;
+/* Video Section */
+.video-section {
+    display: flex;
+    margin-top: 6rem;
+    width: 100%;
+    height: 400px;
 }
 
-.phonenumber {
-  text-align: center;
-  text-decoration: #1b6ca8 underline;
-
+.played-video {
+    width: 100%;
+    height: 100%;
 }
-.contact_links .fab {
-  margin-bottom: 50px;
-  margin: 5px;
+
+/* Client Section */
+.client-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E5E5;
+    padding: 3rem 0;
+}
+
+.client-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+.client {
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.client img {
+    border-radius: 50%;
+    height: 120px; /* 120px/16px */
+    width: 9.375em; /* 150px/16px */
+    margin: -75px auto 22px auto;
+    vertical-align: top;
+    text-align: center;
+}
+
+.client h6 {
+    color: #3B8CC6;
+}
+.client p {
+    font-size: 16px;
+}
+
+/* Contact Section */
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/videoTour2_900.png');
+    color: #ffffff;
+}
+
+/**************************************************
+    * @media queries *
+***************************************************/
+
+@media only screen and (max-width: 800px) {
+
+    .first-image > img {
+        width: 300px;
+        height: 400px;
+    }
+    
+    .second-image > img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .room-image > img {
+        width: 200px;
+        height: 300px;
+    }
+
+    .facility-image > img {
+        width: 200px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .header-section_title h3 {
+        font-size: 22px;
+    }
+    
+    .header-section_title h1 {
+        font-size: 40px;
+        margin-bottom: 2rem;
+    }
+
+    /* Introduction CSS */
+    .row-custom {
+        margin-top: 2rem;
+    }
+
+    .twin-image {
+        display: none;
+    }
+
+    .welcome-message > h2 {
+        font-size: 32px;
+    }
+    
+    .welcome-message > p {
+        font-size: 16px;
+    }
+
+    /* Rooms & Rates Section CSS */
+
+    .rooms-section {
+        margin-top: 1rem;
+    }
+
+    .rooms-section h2 {
+        font-size: 24px;
+    }
+    .room-image > img {
+        width: 100%;
+        height: 330px;
+    }
+
+    .room-image_last {
+        display: none;
+    }
+
+    /* Facility Section CSS */
+
+    .facilities-section {
+        margin-top: 2rem;
+    }
+
+    .facilities-section h2 {
+        font-size: 24px;
+        margin-bottom: 2rem;
+    }
+
+    .facility-image > img {
+        width: 100%;
+        height: 330px;
+    }
+
+    .facility-image_last {
+        display: none;
+    }
+
+    /* Video Section */
+    .video-section {
+        display: none;
+    }
+
+    /* Client Section */
+    .client-section {
+        display: none;
+    }
+
+    /* Contact Section */
+
+    .contact-section {
+        margin-top: 2rem;
+    }
+
 }

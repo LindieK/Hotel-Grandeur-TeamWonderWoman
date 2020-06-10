@@ -1,0 +1,27 @@
+#double-room, #executive-room{
+    background-color: #f7f7ff;
+}
+#double-room .section-img, #executive-room .section-img{
+    order: 2;
+}
+#double-room .section-text, #executive-room .section-text{
+    order: 1;
+}
+.btn{
+    background-color: rgb(65, 153, 225);
+    color: #f7f7ff;
+    padding: 1em;
+    font-size: 1.2em;
+}
+.blue{
+    color: rgb(65, 153, 225);
+}
+small{
+    font-weight: 300;
+}
+/*Media Queries*/
+@media screen and (max-width:800px){
+    #double-room .section-img, #executive-room .section-img{
+        order: 1;
+    }
+}
