@@ -39,6 +39,10 @@
     height: 10px;
 }
 
+.carousel img {
+  height: 100vh;
+}
+
 .btn-book {
     font-size: 18px;
     color: #ffffff;
@@ -250,7 +254,7 @@
         width: 300px;
         height: 400px;
     }
-    
+
     .second-image > img {
         width: 200px;
         height: 200px;
@@ -272,7 +276,7 @@
     .header-section_title h3 {
         font-size: 22px;
     }
-    
+
     .header-section_title h1 {
         font-size: 40px;
         margin-bottom: 2rem;
@@ -290,7 +294,7 @@
     .welcome-message > h2 {
         font-size: 32px;
     }
-    
+
     .welcome-message > p {
         font-size: 16px;
     }
