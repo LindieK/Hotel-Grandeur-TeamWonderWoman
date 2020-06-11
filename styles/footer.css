@@ -29,7 +29,7 @@
     text-decoration: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 992px) {
     .footer-section {
         display: flex;
         flex-direction: column;
@@ -50,4 +50,3 @@
         display: none;
     }
 }
-
