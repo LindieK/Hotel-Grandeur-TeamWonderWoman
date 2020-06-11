@@ -9,6 +9,7 @@
 .footer-section p {
     font-size: 14px;
     color: #1C1C1C;
+    margin-bottom: 0;
 }
 
 .footer-section ul {
@@ -16,6 +17,7 @@
     display: flex;
     align-items: center;
     margin-left: auto;
+    margin-bottom: 0;
 }
 
 .footer-section a {
