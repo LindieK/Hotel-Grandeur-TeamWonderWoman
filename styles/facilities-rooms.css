@@ -40,6 +40,7 @@ header{
     }
     .section-text{
         padding: 0%;
+        margin-top: 1.5em;
     }
 }
 @media screen and (max-width: 400px){
