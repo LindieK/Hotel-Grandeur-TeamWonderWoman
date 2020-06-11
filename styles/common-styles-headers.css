@@ -16,9 +16,17 @@
     font-size: 2.5em;
     margin-bottom: 0.5em;
 }
+.scroll-btn > img{
+    width: 4em;
+    height: 4em;
+    margin-top: 6em;
+}
 @media screen and (max-width:800px){
     .hero-text{
         padding-left: 1em;
+    }
+    .scroll-btn > img{
+        margin-top: 9em;
     }
 }
 @media screen and (max-width: 400px){

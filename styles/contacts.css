@@ -13,10 +13,6 @@ form .btn{
     background-color: #3B8CC6;
     color: #ffffff;
 }
-.scroll-btn > img{
-    width: 100px;
-    height: 200px;
-}
 #enquiries, #map{
     height: 80vh;
     width: 100vw;
