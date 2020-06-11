@@ -27,3 +27,23 @@
 .active-link {
     border-bottom: 2px solid #ffffff;
 }
+
+/**************************************************
+    * @media queries *
+***************************************************/
+
+@media only screen and (max-width: 800px) {
+    .navbar-custom {
+        background-color: #3B8CC6;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar-custom {
+        background-color: #3B8CC6;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+}
